@@ -1,0 +1,174 @@
+<style>
+
+*{
+    font-family: "한컴 윤고딕 240" Arial, Helvetica, sans-serif;}
+
+.photo>img{
+    width: 100%;
+} /*시작화면 사진 크기 너비 맞춤*/
+table th {
+    background-color: rgb(197, 209, 209); /*테이블 색*/
+}
+table{
+    width: 90%; /*표 너비 설정*/
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 90px; /*중간 사진들 맞춤*/
+    
+}
+article h2{
+    text-align: center
+}
+body h3{
+    text-align: center
+}
+.action{
+    padding-bottom: 100px;
+    display: table;
+     width: 100%;
+    
+}
+footer{ /*헤더 푸터 영역지정*/
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    padding: auto;
+    background-color: rgb(196, 196, 196);
+    
+}
+article{
+    flex : 4; /* 선 지정*/
+    border: 1px rgb(122, 122, 122) solid;
+}
+.login a{
+    display: inline; /*글자 옆으로 */
+    padding: 1px 10px; /*글자 간격*/
+    font-size: small;
+    float: right;
+    color: rgb(120, 120, 120);
+
+}
+
+.홍보 {
+ display: inline; /*글자 옆으로 */
+ padding: 1px 10px; /*글자 간격*/
+font-size: small;
+float: left;
+color: rgb(120, 120, 120);
+}
+header img{
+width: 200px;
+height: 200px;
+margin-left: 580px;
+}S
+body h3{
+    margin-top: 100px;
+    color: rgb(120, 120, 120);
+}
+body {
+    background-color: rgb(255, 253, 237);
+}
+.foot{
+ color: rgb(97, 97, 97);
+}
+.pet{
+    padding: 1px 10px;
+    margin-left:150px; /*바닥 사진 맞춤*/
+}
+
+.petimg{
+    padding-bottom: 100px;
+}
+.pet{
+    padding-bottom: 100px;
+}
+
+/*로그인 css*/
+.login{
+    text-align: center; /*아이디 비번 창 중간 맞춤*/
+}
+.checkiog{ /*자동로그인 버튼 위치 조정*/
+    margin-left: 670px;
+}
+.logbutton{ /*로그인 버튼 중간으로*/
+    text-align: center;
+}
+.logfoot{ /*로그인 푸터 밑에 고정*/
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+/*회원가입 css*/
+.txc-textbox{ /*회원가입 약관 박스 설정*/
+    background-color:rgb(255, 255, 255); 
+    border: 1px solid;
+     padding: 10px;
+     width: 90%;
+     height: 300px;
+      overflow: scroll; 
+}
+.sign{ /*전체 위치조정*/
+    margin-left: 180px;
+}
+.signbutton{ /*취소 다음 버튼 중간*/
+    text-align: center;
+}
+a{  /*a선 없애기*/
+    text-decoration: none;
+}
+/*고객센터 css*/
+.q{
+text-align: center;
+}
+
+#menu{
+display: inline block;
+ list-style-type: none;
+ font-size: 1.6em; 
+ height: 45px;
+ font-family: "굴림";
+}
+#menu ul{
+    margin: 0; /*여백 위치 맞추기*/
+	padding: 0;
+    list-style-type: none;
+    text-align: center; /*글자 중간으로*/
+    left: 0;/*네비 모양유지*/
+	top: 45px;/*네비 모양유지*/
+	width: 150px;/*네비 모양유지*/
+	background: #faffd6; /*네비 목록 바탕 색*/
+}
+#menu li{
+    float: left; /*네비 밑에 글자 뜨게 함*/
+    position: relative; /*네비 밑에 글자 뜨게 함*/
+    overflow: hidden;/*마우스 갖다대면 밑에 뜨게 함*/
+    margin: 5px 110px; /*네비 간격*/
+	padding: 0;
+   
+}
+#menu a{
+    display: block;	
+    text-align: center;
+    text-decoration: none; 
+	text-shadow: 0 1px 0 #FFFFFF; /*글자 그림자*/
+	color: #000000; /*글자색 변경*/
+    
+}
+
+#menu ul li{
+    float: none;
+    margin: 0;
+	padding: 0;
+    font-size: 0.9em /*드롭다운글자크기*/
+}
+#menu li ul{
+    position: absolute;
+}
+#menu li:hover {
+    overflow: visible; 
+   background-color: rgb(254, 244, 178);
+}
+
+.qq {
+    display: inline;
+}
